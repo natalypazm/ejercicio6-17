@@ -4,25 +4,33 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<title>Haz 10</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>HAZ 10</title>
 </head>
 <body>
-	<div class="container">
+<div class="container">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2 text-center">
-			<h1 class="text-center">HAZ 10</h1><br>
+			<h1 class="text-center">HAZ 10</h1>
+			<p>En este formulario se retornará "1" si una de los dos valores es igual a 10 o la suma de estos es 10.Caso contrario se retornará "0</p>
+			<div class="col-md-8">
+				<input type="input" id="a" placeholder="0"><br><br>
+				<input type="input" id="b" placeholder="0">
+			</div>
+			<div class=" col-md-4 text-center">
+				<div id="salida" style="font-size: 40px" class="text-center">...</div>
+				<button onclick="calcular()" class="btn-btn-primary">CALCULAR</button>
+			</div>
 		</div>
-		<div class="col-md-8 col-md-offset-2 text-center">
-			<input type="input" id="a" placeholder="0">
-			<input type="input" id="b" placeholder="0">
-		</div>
-		<div class=" col-md-8 col-md-offset-2 text-center">
-			<div id="salida" style="font-size: 40px" class="text-center">...</div>
-			<button onclick="calcular()" class="btn-btn-primary">CALCULAR</button>
-		</div>
+		
 	</div>
-</div>	
+</div>
+<br>	
+<footer>
+	<strong><a href="https://github.com/natalypazm/ejercicio6-17">VER GITHUB</a></strong>
+</footer>
 </body>
 <script src="main.js"></script>
 </html>
